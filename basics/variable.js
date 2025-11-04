@@ -12,3 +12,8 @@ accountCity="DELHI"
 console.table([accountid,accountname,accountpassword,accountCity])  
 console.log(accountstate);
 
+console.log(typeof accountid);
+console.log(typeof accountname);
+console.log(typeof accountpassword);
+console.log(typeof accountCity);
+console.log(typeof accountstate);       
