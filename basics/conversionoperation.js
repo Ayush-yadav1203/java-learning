@@ -12,6 +12,6 @@
 // console.log(booleanIsLoggedIn)
 
 
-let value=22
-let neg = -value
-console.log(neg)
+// let value=22
+// let neg = -value
+// console.log(neg)
