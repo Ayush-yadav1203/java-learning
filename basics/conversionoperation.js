@@ -7,6 +7,11 @@
 //console.log(typeof valueInNumber)
 //console.log(valueInNumber)
 //let isLoggedIns = 1
-let isLoggedIn = 0
-let booleanIsLoggedIn=Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// let isLoggedIn = 0
+// let booleanIsLoggedIn=Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn)
+
+
+let value=22
+let neg = -value
+console.log(neg)
