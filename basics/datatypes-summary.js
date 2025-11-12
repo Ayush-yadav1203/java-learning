@@ -31,3 +31,25 @@
 // const myFunc=function(){
 //     console.log("hello world");
 // }
+
+
+// stack() //primitive
+// heap() //reference
+
+let myVariable="chinmay"
+
+let mydata=myVariable
+mydata="kumar"
+console.log(myVariable);
+console.log(mydata);
+
+let user={
+    email:"user@gamil.com",
+    upi:"user@oksbi"
+}
+
+let usertwo=user
+usertwo.email="hiteshda@gmail.com"
+
+console.log(user.email);
+console.log(usertwo.email);
