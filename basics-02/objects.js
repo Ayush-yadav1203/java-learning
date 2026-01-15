@@ -1,7 +1,7 @@
 //singleton =constructor function that always returns the same instance
 
 
-//object literal syntax
+//object literal syntax --> 
 // Object.create  --> object declataration
 const mysymbol=Symbol("key1")
 const Jsuser={
