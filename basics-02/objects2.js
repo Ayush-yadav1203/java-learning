@@ -5,13 +5,13 @@ const tinderUser = new Object()
 tinderUser.name = "John Doe"
 tinderUser.id="123abc"
 tinderUser.isLoggedIn = false
-// console.log(tinderUser);
-console.log(Object.values(tinderUser));
-console.log(Object.keys(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty("name"));
+// // console.log(tinderUser);
+// console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty("name"));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 const regularuser={
     email:"user@gmail.com",
     fullname:{
@@ -30,3 +30,11 @@ const ob2={3:"c",4:"d"}
 // const obj3=Object.assign({},ob1,ob2)
 const obj3={...ob1,...ob2}
 // console.log(obj3);
+const course={
+    cousrename:"js in hindi",
+    price:"998",
+    courseinstructor:"hitesh"
+}
+//course.courseinstructor
+const{courseinstructor}=course
+console.log(courseinstructor)
