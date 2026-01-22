@@ -33,4 +33,4 @@ function loginu(username){
     }
     return `${username} just logged in`
 }
-console.log(loginu())
+console.log(loginu("ayush yadav"))
