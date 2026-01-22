@@ -22,4 +22,5 @@ function one(){
     two()
     console.log(username)
 }
+// console.log(username) // cant access username variable here
 one()
